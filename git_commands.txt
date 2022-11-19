@@ -1,0 +1,20 @@
+git commands
+
+For new Repository
+==================
+
+1. Create a new repository on GitHub and generate an access_token
+2. git init
+3. git add .
+4. git commit -m "any message"
+5. git remote add origin https://Atif01-lab/property-management.git
+6. git remote set-url origin https://Atif01-lab<access_token>@github.com/Atif01-lab/property-management.git
+7. git push --set-upstream origin master
+
+
+Next Time Onwards
+=================
+1. git pull
+2. git add .
+3. git commit -m "some message"
+4. git push
