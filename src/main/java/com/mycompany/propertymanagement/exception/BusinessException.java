@@ -11,15 +11,15 @@ import java.util.List;
 @Setter
 @NoArgsConstructor //default constructor with no parameters
 //Exception or error is an object and that object should be extending from Exception class.
-public class BusinessException extends Exception{
-    //as this business_exception can be thrown from any part of the applciation,
+public class BusinessException extends RuntimeException{
+    //as this business_exception can be thrown from any part of the application,
     //that's why we want Exception model class to be a part of it
 
 
     //
     private List<ErrorModel> error;
 
-    //default constructor
+
 
     //constructor with a parameter
     public BusinessException (List<ErrorModel>error){
